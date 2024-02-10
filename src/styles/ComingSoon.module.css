@@ -1,0 +1,60 @@
+/* styles/ComingSoon.module.css */
+.container {
+  padding: 0 0;
+}
+
+.main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 60%; /* Adjust as needed */
+  height: 60vh; /* Adjust as needed */
+}
+
+.description {
+  padding-top: 5vh;
+  text-align: center;
+  color: #e3dcdc;
+}
+
+.comingSoon {
+  padding-top: 5vh;
+  text-align: center;
+  color: #e3dcdc;
+  font-size: 2rem;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+}
+
+.footer {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/* Responsive styling for smaller devices */
+@media (max-width: 600px) {
+  /* .title {
+    font-size: 2rem;
+  } */
+  .imageWrapper {
+    /* height: 200px; */
+    width: 100%; /* Adjust as needed */
+    height: 50vh;
+  }
+}
