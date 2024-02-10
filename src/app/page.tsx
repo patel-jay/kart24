@@ -46,8 +46,6 @@ const ComingSoon: React.FC = () => {
       </main>
 
       <footer className={styles.footer}>
-        Kart24 Store
-        <br/>
         Copyright © 2024 Kart24 Store - All Rights Reserved.
       </footer>
     </div>
